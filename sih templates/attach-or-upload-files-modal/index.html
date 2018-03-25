@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Attach or Upload Files Modal</title>
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+  <link rel='stylesheet prefetch' href='css/kxqvvk.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <div class="Container">
+  <div class="Modal" id="modal-attach">
+    <a class="Modal-dismissButton"></a>
+    <div class="Modal-heading">
+      Attach Files
+    </div>
+    <p>
+      Choose a file or files to attach.
+    </p>
+    <ul class="FileList">
+      <li>
+        <label class="File" for="file--01">
+          <input type="checkbox" class="u-margin-right--small" id="file--01"/>
+          <i class="Icon Icon--small Icon--file"></i>
+          <span class="File-name has-Icon">
+            sale-receipt--001
+          </span>
+        </label>
+        <a class="u-margin-left--small" href="">Preview</a>
+      </li>
+      <li>
+        <label class="File" for="file--02">
+          <input type="checkbox" class="u-margin-right--small" id="file--02"/>
+          <i class="Icon Icon--small Icon--file"></i>
+          <span class="File-name has-Icon">
+            sale-receipt--002
+          </span>
+        </label>
+        <a class="u-margin-left--small" href="">Preview</a>
+      </li>
+      <li>
+        <label class="File" for="file--03">
+          <input type="checkbox" class="u-margin-right--small" id="file--03"/>
+          <i class="Icon Icon--small Icon--file"></i>
+          <span class="File-name has-Icon">
+            sale-receipt--003
+          </span>
+        </label>
+        <a class="u-margin-left--small" href="">Preview</a>
+      </li>
+    </ul>
+    <div class="u-margin-top--x-large">
+      <button class="Button Button--primary">
+        Attach selected files
+      </button>
+      <button class="Button Button--outline u-float--right" id="switch-to-upload">
+        Upload a new file
+      </button>
+    </div>
+  </div>
+  
+  <!---------------------------------->
+  
+  <div class="Modal is-hidden" id="modal-upload">
+    <a class="Modal-dismissButton"></a>
+    <div class="Modal-heading">
+      Upload a file
+    </div>
+    <p class="u-margin-bottom--x-small">
+      Maximum file size is 5MB.
+    </p>
+    <p class="u-margin-bottom--x-small">
+      Acceptable formats are: PDF, Word, Excel, TXT, PNG, GIF or JPG
+    </p>
+    <div class="u-margin-top--large">
+      <button class="Button Button--primary">
+        Choose a file to upload
+      </button>
+      <button class="Button Button--outline u-float--right" id="switch-to-attach">
+        Attach a saved file
+      </button>
+    </div>
+  </div>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>

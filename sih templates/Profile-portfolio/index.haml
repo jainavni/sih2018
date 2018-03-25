@@ -1,0 +1,73 @@
+-#====================================================================	
+
+  -# Website: weblings.co
+  -# Twitter: @weblings_co
+  -# Email: hello@weblings.com
+
+-#=======================================================================  */
+
+.penfolio
+  .penfolio_inner
+    %section.penfolio_inner__home{:scroll_target => 'home'}
+      .header_bg
+      %header
+        .pen_responsive_nav
+          %i.icon.ion-navicon-round
+          %ul
+            %li.active Home
+            %li About
+            %li Work
+            %li Contact
+ 
+      .pen_intro
+        .pen_intro__image
+          %a.p_link{:href => '//weblings.co', :target => 'blank'}
+            %svg{:height => "40", :viewbox => "0, 0, 400, 400", :width => "40", :xmlns => "http://www.w3.org/2000/svg"}
+              %path{:d => "M0 0h400v400H0z", :fill => "#57B9F4"}
+              %path{:d => "M200 65.13S65.13 122.933 84.398 180.734C102.676 235.568 200 334.87 200 334.87s97.324-99.302 115.602-154.137C334.87 122.933 200 65.13 200 65.13z", :fill => "#FFF"}
+              %path{:d => "M245.42 135.032s47.98 54.084 25.47 66.315c-22.512 12.233-63.675 13.264-63.674 13.263l38.204-79.578zM154.565 134.972l38.205 79.578s-41.163-1.03-63.673-13.263c-22.51-12.23 25.468-66.314 25.468-66.315z", :fill => "#57B9F4"}
+            %h1 Weblings
+        %h2
+        %h3
+        %h4
+        %nav
+          %ul
+            %li.active Home
+            %li About
+            %li Work
+            %li Contact
+    .penfolio_inner__about{:scroll_target => 'about'}
+      .about_left
+        %h2 About
+      .about_right
+        %p.headline Hey there! I'm Mark, aka mapsiter, Front-end Designer/Developer running Web Design and Branding shop - <a href="//weblings.co" target="_blank">Weblings.co</a>
+        
+    .penfolio_inner__pens{:scroll_target => 'work'}
+      .penfolio_header
+        .header_bg
+        %h2 Featured Work
+        %h3 
+          
+          %span.rep_username
+      .wrap
+        .portfolio_wrap
+          %a.portolio_img{:href => '//bbsp-refurbishment.co.uk', :target => 'blank'}
+            %img{:src => 'https://res.cloudinary.com/weblings/image/upload/v1517937178/codepen.io/Codepen Portfolio/portfolio-bbsp--tiny.svg'}
+          %p BBSP Refurbishment
+          %a.portfolio_link{:href => '//bbsp-refurbishment.co.uk', :target => 'blank'} Visit Site
+        .portfolio_wrap
+          %a.portolio_img{:href => '//madfoxmoto.com', :target => 'blank'}
+            %img{:src => 'https://res.cloudinary.com/weblings/image/upload/v1517937254/codepen.io/Codepen Portfolio/portfolio-madfoxmoto--tiny.svg'}
+          %p Mad Fox Moto
+          %a.portfolio_link{:href => '//madfoxmoto.com', :target => 'blank'} Visit Site
+        
+    .penfolio_inner__contact{:scroll_target => 'contact'}
+      .header_bg
+      %h2 Say Hello!
+      -# %h3 Go ahead, i don't bite!
+      
+      %a{:href => '//twitter.com/@weblings_co', :target => 'blank'}
+        %i.ion-social-twitter
+        .pen_intro__image
+        -# %a.p_link{:href => '//weblings.co', :target => 'blank'}
+          %img{:src => '//weblings.co/template/images/logo_light_blue.svg'}

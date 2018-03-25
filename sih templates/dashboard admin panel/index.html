@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>tinker-20180224</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <header>
+  <h1 class="site-title">
+    Admin Panel
+  </h1>
+  
+  <form action="/user" class="site-search">
+    <div class="form-group">
+      <label for="username" class="form-label">Search for user details
+        <span class="site-search-hint">
+          Enter the username in the box below; e.g. ab123
+        </span>
+      </label>
+      <input type="text" id="username" class="form-control">
+      <button id="site-search-trigger" class="button">Search</button>
+    </div>
+  </form>
+  
+  <p>Hello, <span class="loggedin-user"></span></p>
+</header>
+
+<div class="container">
+
+  <div class="navbar">
+    <ul class="nav">
+      <li class="nav-item">
+        <a href="/home">Home</a>
+      </li>
+
+      <li class="nav-item">
+        <a href="/schedule">Schedule</a>
+
+        <ul class="nav-item-dropdown">
+          <li class="nav-item-dropdown-item">
+            <a href="/schedule/sub-1">Schedule 1</a>
+          </li>
+          <li class="nav-item-dropdown-item">
+            <a href="/schedule/sub-2">Schedule 2</a>
+          </li>
+        </ul>
+      </li>
+
+      <li class="nav-item">
+        <a href="/equipment">Equipment</a>
+      </li>
+
+      <li class="nav-item">
+        <a href="/statistics">Statistics</a>
+
+         <ul class="nav-item-dropdown">
+          <li class="nav-item-dropdown-item">
+            <a href="/statistics/sub-1">Statistics 1</a>
+          </li>
+          <li class="nav-item-dropdown-item">
+            <a href="/statistics/sub-2">Statistics 2</a>
+          </li>
+           <li class="nav-item-dropdown-item">
+            <a href="/statistics/sub-3">Statistics 3</a>
+          </li>
+        </ul>
+      </li>
+    </ul>
+
+  </div>
+
+  <div class="content"></div>
+  
+</div>
+  
+  
+
+</body>
+
+</html>
